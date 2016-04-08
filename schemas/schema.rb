@@ -1,4 +1,4 @@
-schema "42" do
+schema version: 42 do
 
     entity "Car", id: false do
       boolean :is_red

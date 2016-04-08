@@ -9,8 +9,8 @@ Bundler.require
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
 
-  app.api_version = "16"
-  app.target_api_version = "16"
+  app.api_version = "17"
+  app.target_api_version = "17"
 
   # Default build ONLY for Genymotion Emulator
   app.archs = ["x86"] unless ARGV.include?("device") || ARGV.include?("archive")
@@ -31,7 +31,7 @@ Motion::Project::App.setup do |app|
 
   app.gradle do
     # Google's networking API for Android
-    dependency "com.mcxiaoke.volley", :artifact => "library", :version => "1.0.10"
+    dependency "com.mcxiaoke.volley:library:1.0.10"
   end
 
 end

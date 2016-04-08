@@ -15,4 +15,4 @@ gem "moran"
 # asynchronous code blocks
 gem "motion-async"
 
-gem 'swiss_db', path: '../SwissDB/'
+gem 'swiss_db', path: '../swiss_db/'
